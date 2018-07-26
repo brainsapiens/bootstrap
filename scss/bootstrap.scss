@@ -6,10 +6,17 @@
  */
 
 @import "functions";
+
+@import "refined/variables";
+@import "refined/variables_strict";
 @import "variables";
+
 @import "mixins";
 @import "root";
+
 @import "reboot";
+@import "refined/reboot";
+
 @import "type";
 @import "images";
 @import "code";
@@ -29,7 +36,10 @@
 @import "pagination";
 @import "badge";
 @import "jumbotron";
+
 @import "alert";
+@import "refined/alert";
+
 @import "progress";
 @import "media";
 @import "list-group";
@@ -38,5 +48,8 @@
 @import "tooltip";
 @import "popover";
 @import "carousel";
+
 @import "utilities";
+@import "refined/utilities";
+
 @import "print";

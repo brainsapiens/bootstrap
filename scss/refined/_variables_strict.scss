@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,300i,400,400i,700,700i");
+
+// stylelint-disable scss/dollar-variable-default
+$enable-rounded: false;
+
+// stylelint-disable value-keyword-case
+$font-family-sans-serif:  "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-family-monospace:   "Roboto Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+// stylelint-enable value-keyword-case
+// stylelint-enable scss/dollar-variable-default

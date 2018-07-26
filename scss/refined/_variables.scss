@@ -1,0 +1,83 @@
+// stylelint-disable scss/dollar-variable-default
+$blue:    #016ecd;
+$red:     #da4f4a;
+$yellow:  #faa632;
+$green:   #5ab75c;
+$cyan:    #4aafcd;
+
+
+$light: #e9ecef;
+
+
+$yiq-contrasted-threshold: 200;
+
+
+$spacer: 1rem;
+$spacers: (
+  4: ($spacer * 2)
+);
+
+
+$sizes: (
+  5: 5%,
+  10: 10%,
+  15: 15%,
+  20: 20%,
+  30: 30%,
+  35: 35%,
+  40: 40%,
+  45: 45%,
+  55: 55%,
+  60: 60%,
+  65: 65%,
+  70: 70%,
+  80: 80%,
+  85: 85%,
+  90: 90%,
+  95: 95%
+);
+
+
+$paragraph-margin-bottom: $spacer;
+
+
+$grid-gutter-width: ($spacer * 2);
+
+
+$headings-margin-bottom: $spacer;
+
+
+$table-striped-order: even;
+
+
+$form-group-margin-bottom: $spacer;
+
+
+$card-columns-gap:    $grid-gutter-width;
+$card-columns-margin: $grid-gutter-width;
+
+
+$badge-font-weight: 400;
+
+
+$alert-padding-y:     1rem;
+$alert-margin-bottom: $spacer;
+$alert-border-width:  0;
+
+
+$breadcrumb-margin-bottom: $spacer;
+
+
+$carousel-control-icon-width:   40px;
+$carousel-control-prev-icon-bg: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#{#fff}' viewBox='0 0 24 24'%3E%3Cpath d='M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z'/%3E%3C/svg%3E"), "#", "%23");
+$carousel-control-next-icon-bg: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#{#fff}' viewBox='0 0 24 24'%3E%3Cpath d='M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z'/%3E%3C/svg%3E"), "#", "%23");
+
+
+$close-font-size:   2rem;
+$close-font-weight: 400;
+$close-color:       rgba(#000, .5);
+$close-text-shadow: none;
+
+
+$css-columns: 6;
+// stylelint-enable scss/dollar-variable-default
