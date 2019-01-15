@@ -1,0 +1,11 @@
+.table-striped {
+  thead.thead-light + tbody tr:nth-of-type(#{$table-striped-order}),
+  thead.thead-dark + tbody tr:nth-of-type(#{$table-striped-order}) {
+    background-color: transparent;
+  }
+
+  thead.thead-light + tbody tr:not(:nth-of-type(#{$table-striped-order})),
+  thead.thead-dark + tbody tr:not(:nth-of-type(#{$table-striped-order})) {
+    background-color: $table-accent-bg;
+  }
+}
